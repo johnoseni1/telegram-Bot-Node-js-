@@ -17,8 +17,8 @@ Run the bot
 - - -
 Edit config.js, and add a new command file to the commands folder. All commands should have the following structure:
 
-    var command = {
+    var bot = {
         process: function(command, telegramProcess) {
             <!-- commamd codes here -->
         };
-    module.exports = command;
+    module.exports = bot;
