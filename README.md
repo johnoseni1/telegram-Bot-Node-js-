@@ -1,5 +1,3 @@
-#### Telegram Bot
-- - -
 
 ##### Requirements
 - - -
@@ -21,6 +19,6 @@ Edit config.js, and add a new command file to the commands folder. All commands 
 
     var command = {
         process: function(command, telegramProcess) {
-            // handle command here
+            <!-- commamd codes here -->
         };
     module.exports = command;
